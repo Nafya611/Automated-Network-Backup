@@ -1,0 +1,17 @@
+backup:
+  backup_directory: "./backups"
+  retention_days: 7
+  schedule_day: "sunday"
+  schedule_time: "02:00"
+
+email:
+  enabled: false
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender_email: "your-email@gmail.com"
+  sender_password: "your-app-password"
+  recipient_email: "admin@company.com"
+
+logging:
+  level: "INFO"
+  log_file: "./logs/network_backup.log"

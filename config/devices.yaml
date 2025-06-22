@@ -1,0 +1,13 @@
+devices:
+  - name: "router-01"
+    ip: "192.168.1.1"
+    username: "admin"
+    password: "password123"
+    device_type: "cisco_ios"
+    port: 22
+  - name: "switch-01"
+    ip: "192.168.1.2"
+    username: "admin"
+    password: "password123"
+    device_type: "cisco_ios"
+    port: 22
